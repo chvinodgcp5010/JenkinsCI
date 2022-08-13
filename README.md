@@ -1,4 +1,4 @@
-# JFrog-assesment
+# Week3 - JenkinsCI
 
  ![image](https://user-images.githubusercontent.com/39775218/164751465-4a823ee8-4e09-40d4-987c-ad72beee89a2.png)
 
