@@ -1,12 +1,10 @@
 pipeline {
    agent any
-   tool name: 'docker', type: 'dockerTool'
-   tool name: 'mvn3', type: 'maven'
    stages {
     stage('Checkout') {
       steps {
-        git 'https://github.com/chvinodgcp5010/JenkinsCI.git'
-        echo "entered into the spring" 
+        git branch: 'main', url: 'https://github.com/prakan2/JenkinsCI.git'
+        echo "entered into the spring"  
        }
     }
     stage("get inside the folder") {
