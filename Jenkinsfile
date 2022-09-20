@@ -5,7 +5,7 @@ pipeline {
    stages {
     stage('Checkout') {
       steps {
-        git branch: 'main', url: 'https://github.com/prakan2/JenkinsCI.git'
+        git 'https://github.com/chvinodgcp5010/JenkinsCI.git'
         echo "entered into the spring" 
        }
     }
