@@ -1,5 +1,7 @@
 pipeline {
    agent any
+   tool name: 'docker', type: 'dockerTool'
+   tool name: 'mvn3', type: 'maven'
    stages {
     stage('Checkout') {
       steps {
